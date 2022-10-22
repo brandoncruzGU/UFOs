@@ -45,13 +45,26 @@
             <form class="bg-dark">
                 <p>Filter Search</p>
             </form>
-            <ul class="list-group bg-dark">
+            <ul class="list-group bg-dark" id="filters">
                 <li class="list-group-item bg-dark">
                     <label for="date">Enter Date</label>
-                    <input type="text" placeholder="1/10/2010" id="datetime" />
+                    <input type="text" placeholder="1/10/2010" class="form-control" id="datetime" />
+                </li>
+                <li class="list-group-item bg-dark">    
+                    <label for="city">Enter a City</label>
+                    <input type="text" placeholder="rosewell" class="form-control" id="city"/>
                 </li>
                 <li class="list-group-item bg-dark">
-                    <button id="filter-btn" type="button" class="btn bg-dark">Filter Table</button>
+                    <label for="state">Enter a State</label>
+                    <input type="text" placeholder="ca" class="form-control" id="state"/>
+                </li>
+                <li class="list-group-item bg-dark">
+                    <label for="country">Enter a Country</label>
+                    <input type="text" placeholder="us" class="form-control" id="country"/>
+                </li>
+                <li class="list-group-item bg-dark">
+                    <label for="shape">Enter a Shape</label>
+                    <input type="text" placeholder="circle" class="form-control" id="shape"/>
                 </li>
             </ul>
           </div>
